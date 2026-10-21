@@ -25,3 +25,6 @@
 .doll-shoes{background-size:300% 461.029412%;background-position-y:100%;left:32%;top:87%;width:36%;height:14%;margin-left:calc(var(--body-offset,0)*1%)}
 .doll-accessory.accessory-2{left:49%;top:11%}
 .doll-accessory.accessory-2{left:56%;top:7%}
+/* Отражение комнаты за моделью, размеры и крепления гардероба сохранены. */
+.mirror-glass{background:#c7a381 url('assets/mirror-room.png') center/cover no-repeat;overflow:hidden}
+.mirror-glass:after{content:'';position:absolute;inset:3px;pointer-events:none;background:linear-gradient(118deg,transparent 0 8%,#fff4d514 8% 10%,transparent 10% 76%,#fff5df17 76% 78%,transparent 78%);box-shadow:inset 0 0 18px #fff2cf26}
