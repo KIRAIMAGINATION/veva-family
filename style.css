@@ -15,3 +15,11 @@
 .doll-view{aspect-ratio:2/3}.doll-sprite{background-size:300% 200%}.doll-accessory,.doll-shoes{background-size:300% 400%}.doll-accessory{background-position-y:66.666667%;width:27%;height:13.5%;left:12%;top:3%}.doll-accessory.accessory-2{left:65%;top:12%;width:23%;height:11.5%}.doll-accessory.accessory-3{left:35%;top:32%;width:30%;height:15%}.doll-shoes{left:32.5%;top:88%;width:35%;height:17.5%}
 .doll-shoes{left:34%;top:84%;width:32%;height:16%}
 .road{background:repeating-linear-gradient(0deg,#e9d9ab 0 36px,transparent 36px 72px) 40% 0/4px 144px repeat-y,repeating-linear-gradient(0deg,#e9d9ab 0 36px,transparent 36px 72px) 60% 0/4px 144px repeat-y,linear-gradient(90deg,#596c43 0 15%,#b9a278 15% 18%,#686572 18% 82%,#b9a278 82% 85%,#596c43 85%);background-blend-mode:normal}.road .car{width:145px;height:145px;max-width:40%}@keyframes drive{to{background-position:40% 144px,60% 144px,0 0}}@media(max-width:700px){.road .car{width:125px;height:125px;max-width:41%;top:63%}}
+
+/* Влада и все предметы гардероба заново нарисованы по утверждённой сцене. */
+.doll-sprite,.doll-accessory,.doll-shoes{background-image:url('assets/wardrobe-v3.png')}
+/* Размеры нового листа: 1254 × 1254, персонажи занимают верхние 768 пикселей. */
+.doll-view{aspect-ratio:418/768}.doll-sprite{background-size:300% 163.28125%}
+.doll-accessory{background-size:300% 575.229358%;background-position-y:74.131274%;width:25%;height:7.1%;left:23%;top:5%;margin-left:calc(var(--body-offset,0)*1%)}
+.doll-accessory.accessory-2{left:62%;top:14%;width:26%;height:7.4%}.doll-accessory.accessory-3{left:32%;top:23%;width:36%;height:10.2%}
+.doll-shoes{background-size:300% 461.029412%;background-position-y:100%;left:32%;top:87%;width:36%;height:14%;margin-left:calc(var(--body-offset,0)*1%)}
